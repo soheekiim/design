@@ -1,0 +1,113 @@
+html body #MAIN {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  color: #F2F2F2;
+  background-color: #0D0D0D;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#content1, #content2, #content3, #content4 {
+  display: flex;
+  width: 700px;
+  height: 250px;
+}
+
+#content1, #content2, #content3 {
+  border-bottom: 2px solid #F2F2F2;
+}
+
+#content2, #content3, #content4 {
+  justify-content: space-between;
+}
+
+#left1, #right2, #left3, #right4 {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 200px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+
+  line-height: 38px;
+  margin-top: 16px;
+}
+
+#left1, #left3 {
+  margin-left: -15px;
+}
+
+#right2{
+  margin-right: -16px;
+}
+
+#right4 {
+  margin-right: -8px;
+}
+
+.overlap {
+  overflow: hidden;
+}
+
+#text1 {
+  margin-left: 100px;
+  width: 400px;
+  height: inherit;
+}
+
+#mid1 {
+  line-height: 20px;
+}
+
+#lh {
+  margin-bottom: 20px;
+}
+
+.lh2 {
+  margin-bottom: 16px;
+}
+
+#top1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  margin-bottom: 70px;
+}
+
+#right1 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+#bottom {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#bottom {
+  font-size: 32px;
+}
+
+#left2 {
+  margin-top: 76px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#bottomright3 {
+  font-size: 16px;
+  width: 180px;
+  line-height: 16px;
+  text-align: right;
+  margin-top: 190px;
+}
+
+#left4 {
+  margin-top: 16px;
+  width: 116px;
+  font-size: 16px;
+  line-height: 16px;
+}
