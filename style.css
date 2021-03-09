@@ -50,7 +50,7 @@ body {
 
 .overlap {
   overflow: hidden;
-  border-top: 2px solid #0D0D0D;
+  border-top: .5px solid #0D0D0D;
   box-sizing: border-box;
   position: relative;
 }
@@ -73,7 +73,7 @@ body {
 }
 
 .front {
-  border-top: 2px solid #0D0D0D;
+  border-top: 5px solid #0D0D0D;
   overflow: visible;
   line-height: 136px;
 }
